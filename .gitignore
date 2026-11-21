@@ -1,0 +1,35 @@
+# Compiler and linker output
+/build/
+*.o
+*.d
+*.out
+a.out
+*.dSYM/
+
+# Binaries produced by compiling a file in place
+/processes/fork_process
+/threads/producer_consumer
+/pipes/communicate
+/pipes/set_pipe_size
+/sockets/server
+/sockets/client
+
+# CMake leftovers
+/CMakeCache.txt
+/CMakeFiles/
+/cmake-build-*/
+/compile_commands.json
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*~
+
+# Local Python environment (PyCharm); these examples are C
+.venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
